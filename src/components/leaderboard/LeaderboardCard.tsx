@@ -9,6 +9,16 @@ interface LeaderboardCardProps {
 export const LeaderboardCard: React.FC<LeaderboardCardProps> = ({ item, isUserCollege }) => {
   const pct = Math.min(100, Math.round((item.count / item.target) * 100));
 
+  const needed = Math.max(0, item.target - item.count);
+  const nudgeMessage = encodeURIComponent(
+    `🔥 *${item.college} Batch 2026/2027 Alert!*\n\n` +
+    `Our college currently has *${item.count}/${item.target} teams* registered for the free NxtWave 60-Minute AI Project workshop.\n` +
+    `We need just *${needed} more pairs* to unlock 3 months of free hosted Vector DB instances for our entire batch!\n\n` +
+    `Claim your free seat with your project partner:\n` +
+    `https://nxtwave.ai/rag60\n\n` +
+    `_Forward to your class & lab WhatsApp groups!_`
+  );
+
   return (
     <div 
       className={`bg-slate-950/80 border rounded-xl p-3 space-y-2 transition-all ${
@@ -48,6 +58,28 @@ export const LeaderboardCard: React.FC<LeaderboardCardProps> = ({ item, isUserCo
           }`}
           style={{ width: `${pct}%` }}
         />
+      </div>
+
+      {/* College Nudge Action */}
+      <div className="flex items-center justify-between pt-1 text-[10px]">
+        <span className="text-slate-400 font-mono">
+          {pct >= 100 ? (
+            <span className="text-emerald-400 font-bold">🎉 Milestone Unlocked</span>
+          ) : (
+            <span>{needed} teams needed to unlock</span>
+          )}
+        </span>
+
+        {pct < 100 && (
+          <a
+            href={`https://wa.me/?text=${nudgeMessage}`}
+            target="_blank"
+            rel="noreferrer"
+            className="text-emerald-400 hover:text-emerald-300 bg-emerald-950/60 border border-emerald-800/80 px-2 py-0.5 rounded flex items-center gap-1 font-semibold transition-colors"
+          >
+            <span>Nudge Batch (+{needed})</span>
+          </a>
+        )}
       </div>
     </div>
   );

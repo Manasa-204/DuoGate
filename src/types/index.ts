@@ -60,7 +60,7 @@ export interface TimeRemaining {
   seconds: number;
 }
 
-export type VaultTab = 'resume' | 'viva' | 'arch' | 'curriculum';
+export type VaultTab = 'analyzer' | 'resume' | 'viva' | 'arch' | 'curriculum';
 
 export type FunnelStep = 1 | 2 | 3;
 

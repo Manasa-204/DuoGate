@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Database, FileText, HelpCircle, Layers, Clock } from 'lucide-react';
+import { Database, FileText, HelpCircle, Layers, Clock, Sparkles } from 'lucide-react';
 import { VaultTab } from '../../types';
+import { ProjectAnalyzerTab } from './ProjectAnalyzerTab';
 import { ResumeBuilderTab } from './ResumeBuilderTab';
 import { VivaSimulatorTab } from './VivaSimulatorTab';
 import { ArchitectureBlueprintTab } from './ArchitectureBlueprintTab';
 import { CurriculumTimelineTab } from './CurriculumTimelineTab';
 
 export const AssetVault: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<VaultTab>('resume');
+  const [activeTab, setActiveTab] = useState<VaultTab>('analyzer');
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-8 w-full space-y-6">
@@ -21,9 +22,9 @@ export const AssetVault: React.FC = () => {
                 <Database className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="text-lg sm:text-xl font-bold text-white">Capstone & Placement Asset Vault</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-white">Capstone &amp; Placement Asset Vault</h3>
                 <p className="text-xs text-slate-400">
-                  Live preview of the technical deliverables you construct and master in the 60-minute session.
+                  Interactive diagnostics, viva defense simulators, and runnable production deliverables.
                 </p>
               </div>
             </div>
@@ -31,6 +32,16 @@ export const AssetVault: React.FC = () => {
 
           {/* Navigation Tabs */}
           <div className="flex bg-slate-950 p-1 rounded-2xl border border-slate-800 overflow-x-auto text-xs no-scrollbar">
+            <button
+              onClick={() => setActiveTab('analyzer')}
+              className={`px-3.5 py-2 rounded-xl font-semibold transition-all shrink-0 flex items-center gap-1.5 ${
+                activeTab === 'analyzer' ? 'bg-cyan-500 text-slate-950 font-bold shadow-md' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-slate-950 font-bold" />
+              <span>AI Project Evaluator</span>
+            </button>
+
             <button
               onClick={() => setActiveTab('resume')}
               className={`px-3.5 py-2 rounded-xl font-semibold transition-all shrink-0 flex items-center gap-1.5 ${
@@ -74,6 +85,7 @@ export const AssetVault: React.FC = () => {
         </div>
 
         {/* Tab Content Display */}
+        {activeTab === 'analyzer' && <ProjectAnalyzerTab />}
         {activeTab === 'resume' && <ResumeBuilderTab />}
         {activeTab === 'viva' && <VivaSimulatorTab />}
         {activeTab === 'arch' && <ArchitectureBlueprintTab />}
