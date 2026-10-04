@@ -29,15 +29,15 @@ export const Step2DuoGateForm: React.FC<Step2DuoGateFormProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-black uppercase tracking-wider text-indigo-300 bg-indigo-900/60 px-2 py-0.5 rounded border border-indigo-700">
-                Capstone Duo Unlock
+                Partner Pass &amp; Free Bonus Pack
               </span>
               <span className="text-[10px] text-emerald-400 font-semibold flex items-center gap-1">
                 <Sparkles className="w-3 h-3" /> Double Reward Active
               </span>
             </div>
-            <h3 className="text-sm sm:text-base font-bold text-white mt-1">Final-Year Projects are done in Pairs / Teams</h3>
+            <h3 className="text-sm sm:text-base font-bold text-white mt-1">Projects are Built in Pairs — Bring a Partner &amp; Unlock Free Perks</h3>
             <p className="text-xs text-indigo-200 mt-1 leading-relaxed">
-              Register with your project partner to automatically unlock the <strong>System Architecture Mermaid Blueprint</strong>, <strong>8th-Sem Viva Defense Cheatsheet</strong>, and <strong>₹1,500 Cloud GPU credits</strong> for both seats.
+              Add your project partner or classmate. You both instantly get the complete <strong>System Architecture Blueprint</strong>, <strong>8th-Sem Viva Defense Cheatsheet</strong>, and <strong>₹1,500 Cloud GPU credits</strong> for free.
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export const Step2DuoGateForm: React.FC<Step2DuoGateFormProps> = ({
       <form onSubmit={onSubmit} className="space-y-4">
         <div>
           <label className="block text-xs font-semibold text-slate-300 mb-1.5">
-            Capstone Partner's Full Name
+            Project Partner / Friend's Full Name
           </label>
           <input
             type="text"
@@ -96,7 +96,7 @@ export const Step2DuoGateForm: React.FC<Step2DuoGateFormProps> = ({
             className="flex-1 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:from-emerald-400 hover:to-cyan-400 text-slate-950 font-extrabold py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 text-sm transition-all"
           >
             <Unlock className="w-4 h-4 stroke-[2.5]" />
-            <span>Pair Duo & Unlock Capstone Pack</span>
+            <span>Add Partner &amp; Unlock Free Bonus Pack</span>
           </button>
 
           <button
@@ -104,7 +104,7 @@ export const Step2DuoGateForm: React.FC<Step2DuoGateFormProps> = ({
             onClick={onSkip}
             className="text-xs text-slate-400 hover:text-slate-200 px-4 py-3 border border-slate-800 rounded-xl hover:bg-slate-800/60 transition-colors text-center font-medium"
           >
-            Skip (Proceed Solo)
+            Skip for now (Continue Solo)
           </button>
         </div>
       </form>

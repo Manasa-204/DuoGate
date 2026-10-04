@@ -14,7 +14,7 @@ export const FUNNEL_BREAKDOWN_DATA: FunnelRow[] = [
     yield: "300 Primary Regs"
   },
   {
-    node: "Duo-Gate Referral Mechanism",
+    node: "Teammate / Lab Partner Viral Invite (Dual Unlock)",
     traffic: "300 Primary users",
     conversion: "65% pair a partner",
     yield: "+195 Duo Regs"

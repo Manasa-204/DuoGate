@@ -1,7 +1,7 @@
 export const CAPSTONE_DOMAINS: string[] = [
-  'Enterprise RAG & Autonomous Agent Pipelines',
-  'Multi-Modal Vision & Document AI',
-  'Full-Stack GenAI & Real-Time Voice Agents',
-  'HealthTech & Diagnostic Intelligence',
-  'Financial Sentiment Analysis & Fraud Detection LLMs'
+  'Smart Document Q&A App (RAG with Vector Search)',
+  'AI Campus Placement Assistant (Document Q&A RAG App)',
+  'Multi-Modal Document & Vision Search App',
+  'Customer Support AI Agent with Memory',
+  'Financial Report & Balance Sheet Analyzer'
 ];

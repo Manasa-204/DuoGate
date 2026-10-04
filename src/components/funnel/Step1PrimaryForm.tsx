@@ -86,7 +86,7 @@ export const Step1PrimaryForm: React.FC<Step1PrimaryFormProps> = ({
           type="submit"
           className="w-full bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-extrabold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-xl shadow-cyan-500/25 transition-all text-sm group"
         >
-          <span>Continue to Capstone Partner Unlock</span>
+          <span>Continue to Partner Invite &amp; Bonus Unlock</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform" />
         </button>
         <p className="text-center text-[11px] text-slate-500 mt-2.5 flex items-center justify-center gap-1.5">

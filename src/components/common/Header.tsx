@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ timeLeft, onOpenEvaluatorModal }
                 Sprint 2026
               </span>
             </div>
-            <p className="text-[10px] text-slate-400 hidden sm:block">Campus Placement & Capstone Project Accelerator</p>
+            <p className="text-[10px] text-slate-400 hidden sm:block">Free 60-Minute AI Workshop • Batch 2026/2027</p>
           </div>
         </div>
 

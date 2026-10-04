@@ -46,7 +46,7 @@ export const ResumeBuilderTab: React.FC = () => {
             <span>Project Section on Resume (Ready to Paste)</span>
           </div>
           <h4 className="text-sm font-bold text-cyan-300 mt-1">
-            Enterprise Document Intelligence & RAG Pipeline (FastAPI, Llama-3, Pinecone)
+            Production RAG AI Application (FastAPI, Llama-3, Pinecone Vector DB)
           </h4>
         </div>
 

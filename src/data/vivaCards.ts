@@ -5,7 +5,7 @@ export const VIVA_CARDS: VivaCard[] = [
     id: 1,
     category: "Architecture & RAG",
     q: "Why use Retrieval-Augmented Generation (RAG) rather than fine-tuning an open-source model like Llama-3?",
-    a: "Fine-tuning modifies parameterized weights to alter model style and syntax, but it hallucinates domain-specific facts and incurs massive GPU retraining expenses. RAG preserves the base model, dynamically indexes external non-parametric document vectors with sub-second retrieval, guarantees zero training costs, and provides strict factual traceability with citations for enterprise viva compliance."
+    a: "Fine-tuning modifies parameterized weights to alter model style and syntax, but it hallucinates domain-specific facts and incurs massive GPU retraining expenses. RAG preserves the base model, dynamically indexes external non-parametric document vectors with sub-second retrieval, guarantees zero training costs, and provides strict factual traceability with citations for project viva and placement interview compliance."
   },
   {
     id: 2,
@@ -23,6 +23,6 @@ export const VIVA_CARDS: VivaCard[] = [
     id: 4,
     category: "Security & Production",
     q: "How did you prevent Indirect Prompt Injection and system prompt extraction during live viva testing?",
-    a: "We implemented a dual-guardrail architecture: First, strict structural separation using XML tags separating system instructions from untrusted user chunks. Second, an auxiliary regex and lightweight classifier layer that intercepts malicious injection sequences (e.g. 'ignore previous instructions') before vector pipeline ingestion."
+    a: "We implemented a dual-guardrail architecture: First, strict structural separation using XML tags separating system instructions from untrusted user chunks. Second, an auxiliary regex and lightweight classifier layer that intercepts malicious injection sequences (e.g. 'ignore previous instructions') before vector search ingestion."
   }
 ];

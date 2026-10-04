@@ -35,7 +35,7 @@ export const ArchitectureBlueprintTab: React.FC = () => {
   return (
     <div className="space-y-4 animate-fadeIn">
       <div className="bg-slate-950 border border-slate-800 rounded-2xl p-5 font-mono text-xs overflow-x-auto text-cyan-300 shadow-inner">
-        <div className="text-slate-500 mb-2">// Interactive System Diagram: 60-Minute Production AI Architecture</div>
+        <div className="text-slate-500 mb-2">// Interactive System Architecture: 60-Minute Guided RAG App Blueprint</div>
         <pre className="leading-relaxed">{DIAGRAM_ASCII}</pre>
       </div>
 

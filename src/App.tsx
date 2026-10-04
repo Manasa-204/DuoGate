@@ -42,7 +42,7 @@ export default function App() {
   const [partnerUser, setPartnerUser] = useState<PartnerUser>({
     name: '',
     phone: '',
-    domain: 'Enterprise RAG & Autonomous Agent Pipelines'
+    domain: 'Smart Document Q&A App (RAG with Vector Search)'
   });
 
   // Dynamic Urgency & Growth Counters
@@ -157,7 +157,7 @@ export default function App() {
     setPartnerUser({
       name: '',
       phone: '',
-      domain: 'Enterprise RAG & Autonomous Agent Pipelines'
+      domain: 'Smart Document Q&A App (RAG with Vector Search)'
     });
   };
 

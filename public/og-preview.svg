@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070B" />
+      <stop offset="50%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#07090E" />
+    </linearGradient>
+    <linearGradient id="cyan-indigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="150" r="220" fill="#06B6D4" opacity="0.12" filter="blur(60px)" />
+  <circle cx="1000" cy="450" r="260" fill="#6366F1" opacity="0.12" filter="blur(70px)" />
+  <circle cx="600" cy="600" r="200" fill="#10B981" opacity="0.08" filter="blur(50px)" />
+
+  <!-- Main Card Container -->
+  <rect x="60" y="50" width="1080" height="530" rx="28" fill="#0E131F" fill-opacity="0.85" stroke="url(#card-border)" stroke-width="2" />
+
+  <!-- Brand Header -->
+  <g transform="translate(105, 95)">
+    <!-- Logo Badge -->
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="url(#cyan-indigo)" />
+    <text x="28" y="37" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="20" fill="#07090E" text-anchor="middle">NXT</text>
+
+    <!-- Brand Name -->
+    <text x="72" y="27" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF" letter-spacing="0.5">NxtWave AI Labs</text>
+    <text x="72" y="48" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="14" fill="#94A3B8">CAMPUS CAPSTONE & PLACEMENT ACCELERATOR</text>
+
+    <!-- Top Right Urgency Badge -->
+    <rect x="650" y="6" width="320" height="42" rx="21" fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="810" y="32" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" fill="#22D3EE" text-anchor="middle" letter-spacing="0.5">⚡ 100% FREE HANDS-ON WORKSHOP</text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(105, 230)">
+    <text x="0" y="0" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="44" fill="#F8FAFC" letter-spacing="-0.5">
+      Build &amp; Deploy Your First
+    </text>
+    <text x="0" y="56" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="48" fill="url(#cyan-indigo)" letter-spacing="-0.5">
+      RAG AI App In 60 Minutes
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="108" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="20" fill="#CBD5E1">
+      Zero prior AI experience required. Go from zero to a live, working AI app
+    </text>
+    <text x="0" y="136" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="20" fill="#94A3B8">
+      with runnable GitHub code, ATS resume bullets, and 8th-sem Viva defense prep.
+    </text>
+  </g>
+
+  <!-- Feature Value Pills -->
+  <g transform="translate(105, 465)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="235" height="58" rx="14" fill="#141C2E" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="28" cy="29" r="10" fill="#06B6D4" fill-opacity="0.2" />
+    <text x="28" y="34" font-family="Inter, system-ui, sans-serif" font-weight="bold" font-size="12" fill="#22D3EE" text-anchor="middle">✓</text>
+    <text x="50" y="27" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Runnable GitHub Repo</text>
+    <text x="50" y="44" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#94A3B8">Cloneable FastAPI code</text>
+
+    <!-- Pill 2 -->
+    <rect x="250" y="0" width="235" height="58" rx="14" fill="#141C2E" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="278" cy="29" r="10" fill="#6366F1" fill-opacity="0.2" />
+    <text x="278" y="34" font-family="Inter, system-ui, sans-serif" font-weight="bold" font-size="12" fill="#818CF8" text-anchor="middle">✓</text>
+    <text x="300" y="27" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Hosted Vector DB</text>
+    <text x="300" y="44" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#94A3B8">Pinecone + Chroma index</text>
+
+    <!-- Pill 3 -->
+    <rect x="500" y="0" width="235" height="58" rx="14" fill="#141C2E" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="528" cy="29" r="10" fill="#10B981" fill-opacity="0.2" />
+    <text x="528" y="34" font-family="Inter, system-ui, sans-serif" font-weight="bold" font-size="12" fill="#34D399" text-anchor="middle">✓</text>
+    <text x="550" y="27" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">8th Sem Viva Pack</text>
+    <text x="550" y="44" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#94A3B8">Examiner Q&amp;A defense</text>
+
+    <!-- Pill 4 -->
+    <rect x="750" y="0" width="240" height="58" rx="14" fill="#141C2E" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="778" cy="29" r="10" fill="#F59E0B" fill-opacity="0.2" />
+    <text x="778" y="34" font-family="Inter, system-ui, sans-serif" font-weight="bold" font-size="12" fill="#FBBF24" text-anchor="middle">✓</text>
+    <text x="800" y="27" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">ATS Resume Bullets</text>
+    <text x="800" y="44" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#94A3B8">Scored 94/100 verified</text>
+  </g>
+</svg>

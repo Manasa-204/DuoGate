@@ -1,4 +1,4 @@
-# 🚀 Duo-Gate Referral Accelerator | NxtWave AI Labs
+# 🚀 Build & Deploy Your First RAG App in 60 Minutes | NxtWave AI Labs
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Batch](https://img.shields.io/badge/Target-Sprint_2026-cyan.svg)](#)
 
-> **A high-conversion viral referral web application and capstone accelerator designed for final-year engineering students across India to build, host, and defend an enterprise-grade Retrieval-Augmented Generation (RAG) AI application in 60 minutes.**
+> **A high-conversion viral registration web application and capstone workshop platform designed for final-year engineering students across India to build and deploy their first live RAG AI application in 60 minutes.**
 
 ---
 
@@ -18,7 +18,7 @@ Final-year B.Tech / B.E. students (Batch 2026/2027) in Tier-2/3 colleges face ac
 2. **Viva Vulnerability**: 8th-semester external examiners aggressively test architectural choices, vector math, chunking strategies, and latency tradeoffs.
 3. **Distribution Bottlenecks**: Traditional university outreach (administrative MoUs, cold emails to TPOs) takes 3–4 weeks and Meta ads burn capital with low intent.
 
-The **Duo-Gate Referral App** engineers viral loops around academic reality: final-year capstone projects are inherently built in pairs or teams of four. By gating high-value perks behind partner pairing and inter-college batch milestones, the platform achieves high viral coefficients ($K \approx 0.77$) with ultra-low CAC.
+The **AI Workshop Platform** engineers viral loops around academic reality: final-year capstone projects are inherently built in pairs or teams of four. By gating high-value perks behind partner pairing and inter-college batch milestones, the platform achieves high viral coefficients ($K \approx 0.77$) with ultra-low CAC.
 
 ---
 
@@ -27,8 +27,8 @@ The **Duo-Gate Referral App** engineers viral loops around academic reality: fin
 ```mermaid
 graph TD
     A[Student Lands via Batch WhatsApp] --> B[Step 1: Primary Engineer Auth]
-    B -->|College & Branch Verified| C[Step 2: Duo-Gate Viral Pairing]
-    C -->|Invites Lab Teammate| D[Unlock Capstone Duo Pack]
+    B -->|College & Branch Verified| C[Step 2: Partner Viral Pairing]
+    C -->|Invites Lab Teammate| D[Unlock Capstone Partner Pack]
     C -->|Skip Option| E[Solo Mode Registration]
     D --> F[Step 3: Post-Reg Dashboard]
     E --> F
@@ -42,13 +42,13 @@ graph TD
 
 ## ✨ Key Feature Modules
 
-### 1. ⚡ 2-Step "Duo-Gate" Viral Funnel
+### 1. ⚡ 2-Step Viral Pairing Funnel
 * **Step 1: Primary Authentication** — Captures student name, official/personal email, phone, branch, and college via a 30+ university autocomplete index (AKTU, VTU, JNTU, Anna University, SPPU, etc.).
-* **Step 2: Duo-Gate Viral Mechanism** — Leverages student collaboration incentives. Registering with a capstone teammate unlocks:
+* **Step 2: Partner Viral Mechanism (Internal "Duo-Gate" Logic)** — Leverages student collaboration incentives. Registering with a capstone teammate unlocks:
   * **System Architecture Blueprint**
   * **8th-Semester Viva Defense Cheatsheet**
   * **₹1,500 Cloud GPU Credits for Both Seats**
-* **Step 3: Post-Registration Command Center** — Provides a personalized campus referral URL (`https://nxtwave.ai/ai-capstone-60m?ref=NXT-AKTU-7194`), 1-click WhatsApp forward message, and instant repository permission status.
+* **Step 3: Post-Registration Command Center** — Provides a personalized campus referral URL (`https://nxtwave.ai/rag60?ref=NXT-AKTU-7194`), clean vanity domain options, 1-click WhatsApp forward message, and instant repository permission status.
 
 ### 2. 🏆 Inter-College Batch Leaderboard
 * **State & Regional Filtering**: Instant filtering across *Uttar Pradesh, Karnataka, Telangana & AP, Tamil Nadu, and Maharashtra*.
@@ -185,7 +185,7 @@ Production assets are generated in the `dist/` directory, ready to deploy to Ren
 | Distribution Channel | Input Traffic | Conversion | Registrations Yield |
 | :--- | :--- | :--- | :--- |
 | **15 Batch WhatsApp Groups (CR Pins)** | 900 student clicks | ~33% Primary Form | **300 Primary Regs** |
-| **Duo-Gate Viral Mechanism** | 300 Primary users | 65% pair a partner | **+195 Duo Regs** |
+| **Partner Viral Pairing (Dual Unlock)** | 300 Primary users | 65% pair a partner | **+195 Duo Regs** |
 | **Inter-College Leaderboard FOMO** | Campus sharing | Organic $K=0.12$ | **+35 Organic Regs** |
 | **Total 7-Day Expected Yield** | **~1,150 visits** | **Blended 46%** | **530 Verified Regs** |
 

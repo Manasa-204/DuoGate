@@ -17,17 +17,16 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ seatsClaimed, totalTarge
         <span>EXCLUSIVE FOR B.TECH / B.E. FINAL-YEAR STUDENTS (2026/2027) • 100% FREE HANDS-ON WORKSHOP</span>
       </div>
 
-      {/* Aggressive Conversion Headline */}
+      {/* Unified Conversion Headline */}
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-[1.15]">
-        Stop Submitting Copied Academic Projects. <br />
+        Build and Deploy Your First <br />
         <span className="bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
-          Deploy a Capstone-Grade RAG AI Project
-        </span> <br className="hidden sm:inline" />
-        On Your Resume In 60 Minutes.
+          RAG AI App in 60 Minutes.
+        </span>
       </h1>
 
       <p className="text-slate-300 text-sm sm:text-lg max-w-3xl mx-auto leading-relaxed font-normal">
-        Tier-2/3 placement interviewers screen out basic classifiers and Iris datasets in 10 seconds. Build and host a live, production-grade <strong>FastAPI + Vector DB + Llama-3</strong> application complete with ATS keywords, Docker containerization, and 8th-sem Viva defense prep.
+        Zero prior AI/ML experience needed. In this live, hands-on masterclass, engineering students go from scratch to a deployed <strong className="text-white">Smart Document Q&amp;A App (FastAPI + Vector Search + Llama-3)</strong> with a live public URL, ready-to-use ATS resume bullets, and 8th-sem Viva defense prep.
       </p>
 
       {/* Live Seat Scarcity Gauge */}

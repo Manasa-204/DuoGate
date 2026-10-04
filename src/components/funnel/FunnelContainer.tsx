@@ -82,8 +82,8 @@ export const FunnelContainer: React.FC<FunnelContainerProps> = ({
             {step > 2 ? <Check className="w-4 h-4 stroke-[3]" /> : '02'}
           </div>
           <div>
-            <span className={`text-xs font-bold block ${step >= 2 ? 'text-white' : 'text-slate-500'}`}>Capstone Duo-Gate</span>
-            <span className="text-[11px] text-slate-400">Unlock Cloud Perks</span>
+            <span className={`text-xs font-bold block ${step >= 2 ? 'text-white' : 'text-slate-500'}`}>Pair Project Partner</span>
+            <span className="text-[11px] text-slate-400">Unlock Free Perks</span>
           </div>
         </div>
       </div>

@@ -3,22 +3,22 @@ import { TimelineStep } from '../types';
 export const TIMELINE_STEPS: TimelineStep[] = [
   { 
     min: "00 - 10m", 
-    title: "Architecture & Fast Environment Setup", 
-    desc: "Spin up cloud development workspace, initialize UV/Pip virtual env, configure Groq / OpenAI API endpoints, and import FastAPI & LangChain." 
+    title: "Quick Environment & API Setup", 
+    desc: "Spin up cloud development workspace with zero local install, configure Groq / OpenAI API endpoints, and import FastAPI & LangChain." 
   },
   { 
     min: "10 - 25m", 
-    title: "Document Ingestion & Vector Pipeline", 
-    desc: "Build automated PDF/Doc parser, apply recursive chunking, compute 384-dim dense embeddings, and populate high-speed vector index." 
+    title: "Document Ingestion & Vector Search", 
+    desc: "Parse sample PDF/text files, split content with recursive chunking, compute dense embeddings, and store them in a high-speed vector index." 
   },
   { 
     min: "25 - 45m", 
-    title: "RAG Engine & Guardrail Integration", 
-    desc: "Construct hybrid top-k semantic retrieval chain, inject contextual prompts into Llama-3 70B, and verify hallucination thresholds." 
+    title: "RAG Retrieval & Answer Generation", 
+    desc: "Build the semantic search retrieval chain, connect prompt templates with Llama-3, and test grounded answers with live document questions." 
   },
   { 
     min: "45 - 60m", 
-    title: "FastAPI Backend + Streamlit + 1-Click Deploy", 
-    desc: "Wrap inference in asynchronous REST endpoints, connect Streamlit reactive dashboard, build Dockerfile, and deploy live public URL on Render." 
+    title: "FastAPI Backend & Live Cloud Deployment", 
+    desc: "Wrap the app in simple REST endpoints, connect a clean web UI, and deploy to a live public URL to share on your resume and in interviews." 
   }
 ];
